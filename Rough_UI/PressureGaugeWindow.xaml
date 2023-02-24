@@ -1,0 +1,21 @@
+﻿<Window x:Class="Rough_UI.PressureGaugeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rough_UI"
+        mc:Ignorable="d"
+        Title="PressureGaugeWindow" Height="500" Width="800">
+    
+    <Grid Margin="25">
+        
+        <StackPanel>
+            <Label Content="Pressure Gauge Screen" FontSize="35" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <Label Content="Select Unit" FontSize="20" HorizontalAlignment="Right" />
+            <ComboBox x:Name="ComboBoxSelectUnit" Width="150" HorizontalAlignment="Right" />
+        </StackPanel>
+        <Label Content="Fault" FontSize="25" Margin="0 150"/>
+        <Label Content="Pressure Sensor" FontSize="25" Margin="-10,353,10,-114" />
+        <!--ComboBox's Default Value Set-->
+    </Grid>
+</Window>

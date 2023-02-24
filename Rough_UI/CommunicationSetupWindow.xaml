@@ -1,0 +1,19 @@
+﻿<Window x:Class="Rough_UI.CommunicationSetupWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rough_UI"
+        mc:Ignorable="d"
+        Title="CommunicationSetupWindow" Height="500" Width="830">
+    <Grid>
+        <Label Content="IPV6 of PLC (AmsNetId)" FontSize="25" Margin="25 80 0 0" />
+        <Label Content="Connection Status :" FontSize="25" Margin="46,370,-46,-370" />
+
+        <Label  Content= "Communication Settings" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center"/>
+        <Button x:Name="OpenComm" Content="Open Communication" Margin="46,147,534,217" Click="OpenComm_Click" Height="70" Width="220"/>
+        <Button x:Name="CloseComm" Content="Close Communication" Margin="46,257,534,107" Click="CloseComm_Click" Height="70" Width="220"/>
+        <TextBox Text="5.108.227.236.1.1" FontSize="17" Margin="415,80,133,346" TextAlignment="Left"  
+                 VerticalAlignment="Center" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
